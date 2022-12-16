@@ -1,0 +1,516 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+.content{
+    font-family: "Yandex";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    height: 68px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 1168px;
+}
+.partner__title{
+    width: 146px;
+    color: #8B8B8B;
+    margin-left: 20px;
+}
+.nav{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.nav__item{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 15px;
+}
+.nav__item a{
+    color: #8B8B8B;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav__item a:hover{
+    color: #000000;
+    transition: 0.3s;
+}
+.number{
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.number .title{
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.number .description a{
+    color: #8B8B8B;
+}
+
+
+
+
+
+
+
+.main__page{
+    background-color: #F0F0F0;
+    height: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main__content{
+    display: flex;    
+    width: 1168px;
+    justify-content: center;
+}
+.main__text{
+    width: 600px;
+}
+.main__text .title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 40px;
+    width: 400px;
+}
+.main__content .title:first-child{
+    margin-top: 80px;
+}
+.main__content .subtitle{
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.main__content .button{
+    width: 270px;
+    height: 40px;
+    background: #FFDF39;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+.main__man{
+    margin-right: -100px;
+}
+
+
+
+
+
+.choose__car{
+    width: 1168px;
+    height: 1300px;
+}
+.choose__title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+.choose__car .cars{
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.car__item{
+    width: 500px;
+}
+.cars .info{
+    display: flex;
+    align-items: center;
+}
+.cars .name{
+    background: #FFDF39;
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.cars .price{
+    font-size: 18px;
+    margin-left: 30px;
+}
+.cars .rent{
+    font-size: 14px;
+    color: #000000;
+}
+
+
+/* CARS */
+.chevrolet .carimg{
+    margin-left: -25px;
+}
+.renault .info{
+    margin-top: -14px;
+}
+.renault .carimg{
+    margin-left: -24px;
+}
+.hyundai .info{
+    margin-top: -85px;
+}
+.hyundai .carimg{
+    margin-left: -21px;
+}
+.nissan{
+    margin-top: 100px;
+    left: -21px;
+}
+.nissan  .carimg{
+    margin-left: -21px;
+}
+
+
+
+
+
+.choose__start__content{
+    margin-top: 160px;
+    height: 350px;
+}
+.choose__start__content .title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.stages{
+    display: flex;
+    margin-top: 54px;
+    justify-content: space-between;
+}
+.stage__item{
+    list-style-type: none;
+}
+.stage__item .stage__title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.stage__item #number{
+    background: #FFDF39;
+    padding: 8;
+}
+.stage__item a{
+    color: #000000;
+}
+.stage__item .stage__description{
+    margin-top: 25px;
+    font-size: 16px;
+    width: 260px;
+}
+
+
+
+
+
+
+.job__info{
+    height: 589px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.info__content{
+    display: flex;
+    width: 1168px;
+}
+.job__text{
+    margin-top: 65px;
+    width: 900px;
+}
+.job__title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.job__perfects{
+    margin-top: 70px;
+}
+.job__item{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.job__item .job__more{
+    margin-left: 25px;
+}
+.more__title{
+    font-size: 18px;
+}
+.more__description{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.job__img{
+    margin-right: -100px;
+}
+
+
+
+
+.mobile__app{
+    margin-top: 160px;
+    background-color: #F0F0F0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 343px;
+}
+.mobile__content{
+    width: 1168px;
+    display: flex;
+    flex: 0 auto;
+}
+.mobile__text{
+    width: 600px;
+}
+.mobile__text .mobile__title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+.mobile__text .mobile__description{
+    margin-top: 28px;
+    font-size: 16px;
+}
+.mobile__text img{
+    margin-top: 50px;
+    margin-left: -9px;
+}
+.mobile__content .images{
+    background: url('./assets/phonesbg.svg');
+    background-size: auto;
+    margin-right: -100px;
+    width: 770px;
+    
+}
+.mobile__content .images img{
+    margin-top: -75px;
+}
+
+
+
+
+
+
+.contacts{
+    height: 445px;
+    display: flex;
+    justify-content: center;
+}
+.contacts__content{
+    width: 1168px;
+}
+.contact__title{
+    margin-top: 140px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact__list{
+    margin-left: 31px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-top: 26px;
+}
+.contact__item{
+    list-style-type: none;
+    width: 250px;
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+}
+.contact__item img{
+    margin-right: 7px;
+}
+.contact__item #grey{
+    color: #8B8B8B;}
+
+.contact__list .viber{
+    margin-left: -6px;
+}
+.contacts__content .show__map{
+    margin-left: 53%;
+}
+.contacts__content .show__map a{
+    font-size: 12px;
+    color: #8B8B8B;
+}
+
+
+
+.form{
+    width: 100%;
+    background: #F0F0F0;
+    display: flex;
+    justify-content: center;
+}
+.form__content{
+    width: 1168px;
+    flex: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.form__text{
+    width: 600px;
+}
+.form__text .title{
+    margin-top: 62px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.form__content img{
+    margin-right: -100px;
+}
+.name__form{
+    margin-top: 55px;
+}
+.form__info .form__title{
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.form__info input{
+    width: 400px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 0.3px solid #898989;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.phone__form{
+    margin-top: 18px;
+}
+.form__content .sumbit{
+    display: flex;
+    margin-top: 43px;
+}
+.form__text .sumbit{
+    display: flex;
+    align-items: center;
+}
+.form__text .sumbit .sumbit__btn{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form__text .sumbit .sumbit__btn a{
+    background: #FFDF39;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 47px;
+    padding-right: 47px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+}
+.form__text .sumbit .substring__btn{
+    width: 190px;
+    font-size: 12px;
+    color: #8B8B8B;
+    margin-left: 25px;
+}
+.form__text .sumbit .substring__btn a{
+    color: #8B8B8B;
+}
+
+
+
+
+
+.question{
+    height: 136px;
+    background: #FFDF39;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.question .title{
+    font-weight: 700;
+    margin-right: 30px;
+}
+.question img{
+    margin-left: 31px;
+}
+.question a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+.footer{
+    height: 120px;
+    background: #222222;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer__content{
+    color: #FFFFFF;
+    width: 1168px;
+    display: flex;
+    align-items: center;
+}
+.footer__info{
+    width: 240px;
+    font-size: 14px;
+}
+.footer__info .inn{
+    margin-top: 6px;
+}
+.footer__nav{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+.footer__item{
+    list-style-type: none;
+}
+.footer__item a:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+.footer__item a{
+    color: #8B8B8B;
+    transition: 0.3s;
+}
+.footer .policy{
+    margin-left: 70px;
+    width: 269px;
+}
+.footer a{
+    color: #8B8B8B;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer .policy{
+    color: #fff;
+}
